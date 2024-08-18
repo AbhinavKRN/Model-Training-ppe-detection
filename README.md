@@ -1,7 +1,3 @@
-Here's a sample `README.md` file that you can include in your project. This file outlines the steps necessary to set up and run the project.
-
----
-
 # Syook Object Detection Project
 
 This project involves training object detection models for detecting persons and PPE (Personal Protective Equipment) using YOLOv8. The project includes scripts for converting annotations, training models, and performing inference.
@@ -20,8 +16,7 @@ project_root/
 │   ├── labels/
 │   ├── person_detection.yaml  # YAML file for person detection model training
 │   └── ppe_detection.yaml     # YAML file for PPE detection model training
-├── weights/                   # Directory to save the model weights
-└── report.pdf                 # PDF report containing approaches, learning, and evaluation metrics
+
 ```
 
 ## Requirements
@@ -109,5 +104,3 @@ This project provides a full pipeline from annotation conversion to model traini
 For any issues or further questions, please consult the official PyTorch or Ultralytics documentation, or consider reaching out on relevant forums or GitHub issues.
 
 ---
-
-You can place this `README.md` file in the root directory of your project to help guide anyone who might work on or review your project in the future.
